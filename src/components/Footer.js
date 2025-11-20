@@ -8,7 +8,10 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3 className="footer-logo">NexGen Digital</h3>
+            <div className="footer-logo">
+              <img src="/favicon.svg" alt="logo" className="footer-favicon" />
+              <h3 className="footer-logo-text">NexGen Digital</h3>
+            </div>
             <p className="footer-description">
               Building innovative digital solutions for the future.
             </p>

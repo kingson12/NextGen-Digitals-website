@@ -30,6 +30,7 @@ const NavBar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <Link to="/" className="nav-logo">
+          <img src="/favicon.svg" alt="logo" className="nav-favicon" />
           <span className="logo-text">NexGen Digital</span>
         </Link>
         

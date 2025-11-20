@@ -27,10 +27,25 @@
 .footer-logo {
   font-size: 1.5rem;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo h3 {
+  margin: 0;
+}
+
+.footer-logo-text {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.footer-favicon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .footer-description {
