@@ -195,10 +195,19 @@
   .contact-item {
     flex-direction: column;
     text-align: center;
+    align-items: center; /* Added for vertical alignment */
   }
 
   .contact-icon {
     margin: 0 auto;
+  }
+
+  .info-card {
+    text-align: center; /* Center text within info-card */
+  }
+
+  .social-links {
+    justify-content: center; /* Center social links */
   }
 }
 

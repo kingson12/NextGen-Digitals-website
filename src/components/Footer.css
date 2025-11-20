@@ -115,5 +115,21 @@
     grid-template-columns: 1fr;
     gap: 30px;
   }
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .footer-links {
+    padding: 0;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
 }
 

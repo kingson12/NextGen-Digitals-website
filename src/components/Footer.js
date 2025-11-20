@@ -67,6 +67,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>&copy; 2024 NexGen Digital. All rights reserved.</p>
+          <p>Designed by Emmanuel Kingson</p>
         </div>
       </div>
     </footer>
